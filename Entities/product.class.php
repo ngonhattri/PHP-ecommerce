@@ -76,6 +76,13 @@ class Product{
 		$rs = $db -> select_to_array($sql);
 		return $rs;
 	}
-
+	// Lấy danh sách sản phẩm theo loại sản phẩm
+	public static function list_product_by_cateId($cate_id)
+	{
+		$db = new Db();
+		$sql = "SELECT * FROM product WHERE CateId='$cate_id'";
+		$result = $db->select_to_array($sql);
+		return $result;
+	}
 }
 ?>

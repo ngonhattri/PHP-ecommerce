@@ -9,7 +9,7 @@
 <body>
     <footer style ="text-align:center;
   margin-top:100px;">
-        Quay lại <a href="/LAB3">Trang chủ</a><br/>
+        Quay lại <a href="/LAB3+4">Trang chủ</a><br/>
         &#169; 2020 - Ngo Nhat Tri - Faculty of Information Technology
     </footer>
     <script src="bootstrap/js/bootstrap.min.js"></script>

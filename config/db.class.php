@@ -24,7 +24,7 @@ class Db
 		$connection = $this -> connect();
 		//Thực hiện execute truy vấn, query là hàm của thư viện mysqli
 		$result = $connection -> query($queryString);
-		$connection -> close();
+		// $connection -> close();
 		return $result;
 	}
 
