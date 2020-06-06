@@ -32,11 +32,25 @@
 <?php if ($loi_str = ""){?>
 	<div class="alert alert-danger"><?php echo $loi_str ?></div>
 <?php } ?>
-<div class="container form-text">
+
+    <section class="ftco-section">
+    	<div class="container">
+    		<div class="right_col" role="main">
+        <div class="">
+          <div class="page-title">
+            <div class="title_left">
+              <h3>Add Product</h3>
+            </div>
+          </div>
+          <div class="clearfix"></div>
+
+          <div class="row">
+            <div class="col-md-12 col-sm-12">
+              <div class="x_panel">
+                <div class="x_content">
+                  <form class="" action="" method="post" novalidate>
+                    <div class="container form-text">
 	<div class="row">
-		<div class="col-sm-12">
-			<h1>Thêm Sản Phẩm</h1>
-		</div>
 		<div class="col-sm-12">
 			<form method="post" enctype="multipart/form-data">
 		<!-- Tên sản phẩm -->
@@ -82,7 +96,19 @@
 		</div>
 	</div>
 </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    	</div>
+    </section>
 
+	<?php include_once('footer.php');?>
 
-<!-- Footer -->
-<?php require 'footer.php'; ?>	
+    
+</body>
+<?php include_once('scripts.php');?>
+</html>

@@ -17,7 +17,7 @@
   <body>
 	  <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
 	    <div class="container">
-	      <a class="navbar-brand" href="index.html">Project <span>Ecommerce website</span></a>
+	      <a class="navbar-brand" href="index.php">Project <span>Ecommerce website</span></a>
 	    
 
 	      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
@@ -27,8 +27,9 @@
 	      <div class="collapse navbar-collapse" id="ftco-nav">
 	        <ul class="navbar-nav ml-auto">
 	          <li class="nav-item"><a href="index.php" class="nav-link">Home</a></li>
-	          <li class="nav-item"><a href="/Lab3+4/add_product.php" class="nav-link">Add Product</a></li>
-	          <li class="nav-item"><a href="/Lab3+4/test.php" class="nav-link">List Product</a></li>
+	          <li class="nav-item"><a href="add_product.php" class="nav-link">Add Product</a></li>
+	          <li class="nav-item"><a href="list_product.php" class="nav-link">List Product</a></li>
+            <li class="nav-item"><a href="test.php" class="nav-link">Test</a></li>
             </li>
 	        </ul>
 	      </div>

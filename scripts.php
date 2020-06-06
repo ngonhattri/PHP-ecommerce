@@ -16,5 +16,13 @@
   <script src="js/jquery.magnific-popup.min.js"></script>
   <script src="js/jquery.animateNumber.min.js"></script>
   <script src="js/scrollax.min.js"></script>
+  <script src="validator/multifield.js"></script>
+  <script src="validator/validator.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.1/js/bootstrap-select.min.js"></script>
   <script src="js/main.js"></script>
+  <script src="https://cdn.ckeditor.com/4.7.3/standard/ckeditor.js"></script>
+  <script>
+    CKEDITOR.replace( 'txtdesc' );
+  </script>
+
+  
