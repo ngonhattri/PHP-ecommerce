@@ -16,6 +16,7 @@
 			<div class="navbar-header">
 				<a href="/Lab3+4/list_product.php" class="navbar-brand">List Product</a>
 				<a href="/Lab3+4/add_product.php" class="navbar-brand">Add Product</a>
+				<a href="/Lab3+4/test.php" class="navbar-brand">Test</a>
 			</div>
 			<form class="form-inline">
 			    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
