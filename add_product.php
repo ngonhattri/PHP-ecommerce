@@ -62,6 +62,9 @@
 				<div class="form-group">
 					<label for="txtdesc">Mô tả sản phẩm</label>
 					<textarea class="form-control" type="text" id="txtdesc" name="txtdesc" rows="3" value="<?php echo isset($_POST["txtdesc"]) ? $_POST["txtdesc"] : "" ?>"></textarea>
+					<script>
+    					CKEDITOR.replace( 'txtdesc' );
+  					</script>
 				</div>
 				<!-- Số lượng sản phẩm -->
 				<div class="form-group">
