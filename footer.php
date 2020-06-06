@@ -1,17 +1,12 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="author" content="ngonhattri">
-    <link rel="stylesheet" href="site.css">
-    <title>Project training - ecommerce website</title>
-</head>
-<body>
-    <footer style ="text-align:center;
-  margin-top:100px;">
-        Quay lại <a href="/LAB3+4">Trang chủ</a><br/>
-        &#169; 2020 - Ngo Nhat Tri - Faculty of Information Technology
-    </footer>
-    <script src="bootstrap/js/bootstrap.min.js"></script>
-</body>
-</html>
+<footer>
+    <div class="container-fluid py-5 bg-black">
+      	<div class="container">
+      		<div class="row">
+	            <div class="col-md-12" style="text-align: center;">
+                    Quay lại <a href="/LAB3+4">Trang chủ</a><br/>
+                    &#169; 2020 - Ngo Nhat Tri - Faculty of Information Technology
+                </div>
+	        </div>
+      	</div>
+    </div>
+</footer>
