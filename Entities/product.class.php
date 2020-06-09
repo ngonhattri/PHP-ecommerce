@@ -84,5 +84,21 @@ class Product{
 		$result = $db->select_to_array($sql);
 		return $result;
 	}
+	// Lấy danh sách sản phẩm cùng loại
+    public static function list_product_relate($cate_id, $id)
+    {
+        $db = new Db();
+        $sql = "SELECT * FROM product WHERE CateId='$cate_id' AND productId!='$id'";
+        $result = $db->select_to_array($sql);
+        return $result;
+    }
+    public static function get_product($id)
+    {
+        $db = new Db();
+        $sql = "SELECT * FROM product WHERE productId='$id'";
+        $result = $db->select_to_array($sql);
+        return $result;
+    }   
+
 }
 ?>

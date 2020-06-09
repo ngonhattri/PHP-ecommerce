@@ -47,7 +47,7 @@ $cates = Category::list_category();
 										</div>
 									</div>
 									<div class="text text-center">
-										<h2><?php echo $item['ProductName'];?></h2>
+										<h2><a href="detail_product.php?id=<?php echo $item['ProductId']?>"><?php echo $item['ProductName'];?></a></h2>
 										<p class="mb-0"><span class="price"><?php echo number_format($item['Price'], 0, '', ',');?> VNĐ</span></p>
 									</div>
 								</div>
